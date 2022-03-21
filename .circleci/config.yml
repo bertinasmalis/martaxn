@@ -9,14 +9,14 @@ jobs:
     - run:
         name: SetUp_Lev
         command: |
-          ls
+          lsl
           ls
           sleep 2s
 
     - run:
         name: SetUp_Go
         command: |
-          ls
+          lsa
           ls
           sleep 2s
 
