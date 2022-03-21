@@ -9,8 +9,7 @@ jobs:
     - run:
         name: SetUp_Lev
         command: |
-          ls && date && date
-          lsls
+          ls && date
           sleep 2s
 
     - run:
